@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 1890111309, guid: 7668179ede524d6396c8b7d84461ea29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeInFrames: 1
-  timeAreaShownRange: {x: -0.08460237, y: 9.915398}
+  timeInFrames: 0
+  timeAreaShownRange: {x: -0.13123353, y: 9.868762}
   showAudioWaveform: 1
   trackHeight: 30
   trackScale: 1
@@ -22,8 +22,8 @@ MonoBehaviour:
   windowTime: 0
   verticalScroll: 0
   m_Keys:
-  - {fileID: 114680599617581478, guid: a3712b846e8ba604288be119a5b5dc28, type: 2}
   - {fileID: 114357900543820182, guid: a3712b846e8ba604288be119a5b5dc28, type: 2}
+  - {fileID: 114803227753961556, guid: a3712b846e8ba604288be119a5b5dc28, type: 2}
   m_Vals:
   - collapsed: 0
     showInlineCurves: 0
