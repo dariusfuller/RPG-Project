@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using RPG.Combat;
 using RPG.Core;
 using RPG.Movement;
@@ -10,8 +10,7 @@ namespace RPG.Control
     {
         Health health;
 
-        private void Start()
-        {
+        private void Start() {
             health = GetComponent<Health>();
         }
 
