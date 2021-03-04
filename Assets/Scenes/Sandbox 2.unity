@@ -321,6 +321,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1655155851008248839, guid: f40a20538c596fa4cabf270bbc25d177, type: 3}
+    - {fileID: 1934367563, guid: f40a20538c596fa4cabf270bbc25d177, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f40a20538c596fa4cabf270bbc25d177, type: 3}
 --- !u!1 &245873463 stripped
 GameObject:
@@ -341,8 +342,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: -1
-  spawnPoint: {fileID: 0}
-  destination: 1
+  spawnPoint: {fileID: 1199213998}
+  destination: 0
   fadeOutTime: 1
   fadeInTime: 2
   fadeWaitTime: 0.5
@@ -392,7 +393,7 @@ PrefabInstance:
     - target: {fileID: 534447835610397562, guid: f40a20538c596fa4cabf270bbc25d177,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -5.14
       objectReference: {fileID: 0}
     - target: {fileID: 534447835610397562, guid: f40a20538c596fa4cabf270bbc25d177,
         type: 3}
@@ -407,22 +408,22 @@ PrefabInstance:
     - target: {fileID: 534447835610397562, guid: f40a20538c596fa4cabf270bbc25d177,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 534447835610397562, guid: f40a20538c596fa4cabf270bbc25d177,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.73827153
       objectReference: {fileID: 0}
     - target: {fileID: 534447835610397562, guid: f40a20538c596fa4cabf270bbc25d177,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 534447835610397562, guid: f40a20538c596fa4cabf270bbc25d177,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.6745037
       objectReference: {fileID: 0}
     - target: {fileID: 534447835610397562, guid: f40a20538c596fa4cabf270bbc25d177,
         type: 3}
@@ -437,7 +438,7 @@ PrefabInstance:
     - target: {fileID: 534447835610397562, guid: f40a20538c596fa4cabf270bbc25d177,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 95.16901
       objectReference: {fileID: 0}
     - target: {fileID: 534447835610397562, guid: f40a20538c596fa4cabf270bbc25d177,
         type: 3}
@@ -454,6 +455,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.671
       objectReference: {fileID: 0}
+    - target: {fileID: 1934367563, guid: f40a20538c596fa4cabf270bbc25d177, type: 3}
+      propertyPath: destination
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1655155851008248839, guid: f40a20538c596fa4cabf270bbc25d177,
         type: 3}
       propertyPath: sceneToLoad
@@ -467,30 +472,12 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 1655155851008248839, guid: f40a20538c596fa4cabf270bbc25d177, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f40a20538c596fa4cabf270bbc25d177, type: 3}
---- !u!1 &991626733 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8721409065188640095, guid: f40a20538c596fa4cabf270bbc25d177,
+--- !u!4 &1199213998 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2903624455241119793, guid: f40a20538c596fa4cabf270bbc25d177,
     type: 3}
-  m_PrefabInstance: {fileID: 991626732}
+  m_PrefabInstance: {fileID: 245873462}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &991626734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 991626733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 541cacfe592acf6478e6e0d240c5e888, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneToLoad: -1
-  spawnPoint: {fileID: 0}
-  destination: 0
-  fadeOutTime: 1
-  fadeInTime: 2
-  fadeWaitTime: 0.5
 --- !u!1 &2046948819
 GameObject:
   m_ObjectHideFlags: 0

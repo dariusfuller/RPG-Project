@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514985484211211248}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 3.105, y: -0.475, z: 0.647}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 534447835610397562}
@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 534447835610397562}
   - component: {fileID: 3235519836613087960}
   - component: {fileID: 5719120130443068559}
-  - component: {fileID: 1655155851008248839}
+  - component: {fileID: 1934367563}
   m_Layer: 2
   m_Name: Portal
   m_TagString: Untagged
@@ -58,7 +58,7 @@ Transform:
   m_GameObject: {fileID: 8721409065188640095}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.346405, y: -1.4813633, z: 35.909485}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.8971, z: 3.8282}
   m_Children:
   - {fileID: 2903624455241119793}
   m_Father: {fileID: 0}
@@ -91,9 +91,9 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 0.95, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1655155851008248839
+--- !u!114 &1934367563
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -102,7 +102,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8721409065188640095}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b170c24758c8171478f061901a002f48, type: 3}
+  m_Script: {fileID: 11500000, guid: 541cacfe592acf6478e6e0d240c5e888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 1
+  sceneToLoad: -1
+  spawnPoint: {fileID: 2903624455241119793}
+  destination: 0
+  fadeOutTime: 1
+  fadeInTime: 2
+  fadeWaitTime: 0.5
