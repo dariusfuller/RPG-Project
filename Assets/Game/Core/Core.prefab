@@ -281,6 +281,12 @@ PrefabInstance:
       propertyPath: weaponDamage
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 2711105610579158119, guid: 00254deafec00df47a5cb22b82fa7df2,
+        type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: eb96129cd7d2d2a4fa67c781fbd12362,
+        type: 2}
     - target: {fileID: 5590448998658487242, guid: 00254deafec00df47a5cb22b82fa7df2,
         type: 3}
       propertyPath: m_Bones.Array.data[0]

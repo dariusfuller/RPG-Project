@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1902
     height: 981
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -111,10 +111,10 @@ MonoBehaviour:
     y: 30
     width: 1902
     height: 931
-  m_MinSize: {x: 681, y: 498}
+  m_MinSize: {x: 679, y: 498}
   m_MaxSize: {x: 14002, y: 14048}
   vertical: 0
-  controlID: 49
+  controlID: 125
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +136,10 @@ MonoBehaviour:
     y: 0
     width: 1402
     height: 931
-  m_MinSize: {x: 406, y: 498}
+  m_MinSize: {x: 404, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 62
+  controlID: 126
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,10 +161,10 @@ MonoBehaviour:
     y: 0
     width: 1402
     height: 657
-  m_MinSize: {x: 406, y: 224}
-  m_MaxSize: {x: 8006, y: 4024}
+  m_MinSize: {x: 404, y: 224}
+  m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
-  controlID: 63
+  controlID: 127
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,8 +210,8 @@ MonoBehaviour:
     y: 0
     width: 1008
     height: 657
-  m_MinSize: {x: 204, y: 224}
-  m_MaxSize: {x: 4004, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 14}
@@ -336,18 +336,18 @@ MonoBehaviour:
       y: 17
       width: 1004
       height: 620
-    m_Scale: {x: 1.1592739, y: 1.1592739}
-    m_Translation: {x: 491.3286, y: 330.3871}
+    m_Scale: {x: 1.092727, y: 1.092727}
+    m_Translation: {x: 491.6755, y: 302.49094}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -423.82446
-      y: -284.99484
-      width: 866.0594
-      height: 534.81757
+      x: -449.95276
+      y: -276.82208
+      width: 918.80225
+      height: 567.3879
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
@@ -388,7 +388,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: b0f3ffffd2fbffff
+      m_ExpandedIDs: 3cf1ffffd2fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -445,7 +445,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -36.051903, y: -1.5142016, z: -37.663788}
     speed: 2
-    m_Value: {x: -3.5302267, y: 0.9509476, z: 2.053477}
+    m_Value: {x: -30.869999, y: 0.80142343, z: -34.102684}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -475,11 +475,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.033449776, y: -0.9501927, z: 0.109668896, w: 0.28980646}
     speed: 2
-    m_Value: {x: -0.490681, y: 0.120813645, z: -0.068916656, w: -0.8601667}
+    m_Value: {x: 0.1256269, y: -0.6477624, z: 0.10946456, w: 0.7433971}
   m_Size:
     m_Target: 16.3636
     speed: 2
-    m_Value: 4.2819295
+    m_Value: 4.7722855
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -555,20 +555,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Game/Weapons/Sword
+    - Assets/Game/Characters
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Game/Weapons/Sword
+  - Assets/Game/Characters
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\darius.fuller\Documents\GitHub\RPG-Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 63}
-    m_SelectedIDs: 320e0000
-    m_LastClickedID: 3634
-    m_ExpandedIDs: 00000000500b0000e00b00005e0c0000560d0000b20e000000ca9a3b
+    scrollPos: {x: 0, y: 191}
+    m_SelectedIDs: 140e0000
+    m_LastClickedID: 3604
+    m_ExpandedIDs: 00000000520b0000e20b0000600c0000a20c00005c0d0000ba0e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -596,7 +596,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000500b0000e00b0000560d0000b20e0000
+    m_ExpandedIDs: 00000000520b0000e20b0000600c00005c0d0000ba0e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -640,7 +640,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -769,7 +769,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -3152
+  m_LastSelectedObjectID: 13190
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -896,29 +896,4 @@ MonoBehaviour:
     y: 81
     width: 830
     height: 911
-  m_PersistentViewDataDictionary: {fileID: 0}
---- !u!114 &24
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12059, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEditor:UnityEditor.Experimental.TerrainAPI:PaintTextureTool
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Failed to load
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
   m_PersistentViewDataDictionary: {fileID: 0}
