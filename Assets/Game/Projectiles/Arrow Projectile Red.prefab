@@ -10,8 +10,24 @@ PrefabInstance:
     - target: {fileID: 6765940254194633575, guid: 2775eb2c6dd17c84ca8f99b63d6c2502,
         type: 3}
       propertyPath: m_Name
-      value: ArrowProjectile Red
+      value: Arrow Projectile Red
       objectReference: {fileID: 0}
+    - target: {fileID: 3215515141499302788, guid: 2775eb2c6dd17c84ca8f99b63d6c2502,
+        type: 3}
+      propertyPath: isHoming
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3215515141499302788, guid: 2775eb2c6dd17c84ca8f99b63d6c2502,
+        type: 3}
+      propertyPath: speed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3215515141499302788, guid: 2775eb2c6dd17c84ca8f99b63d6c2502,
+        type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 969437062457640915, guid: 33197bd8b4c373746a4f9963dd350d42,
+        type: 3}
     - target: {fileID: 7375723340729810103, guid: 2775eb2c6dd17c84ca8f99b63d6c2502,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -66,16 +82,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3215515141499302788, guid: 2775eb2c6dd17c84ca8f99b63d6c2502,
-        type: 3}
-      propertyPath: isHoming
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3215515141499302788, guid: 2775eb2c6dd17c84ca8f99b63d6c2502,
-        type: 3}
-      propertyPath: speed
-      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5237390002236371905, guid: 2775eb2c6dd17c84ca8f99b63d6c2502,
         type: 3}
